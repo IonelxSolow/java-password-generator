@@ -1,3 +1,29 @@
+package org.lessons.security;
+
+public class PasswordGenerator {
+
+    public static void main(String[] args) {
+
+        String nome = "Pinco";
+        String cognome = "Palla";
+        String colorePreferito = "Magenta";
+        int dataDiNascita = 12;
+        int meseDiNascita = 05;
+        int annoDiNascita = 1994;
+
+        String StringConcatenatore = nome + "-" + cognome + "-" + colorePreferito;
+    
+        int intConcatenatore = dataDiNascita + meseDiNascita + annoDiNascita;
+
+        String passwordGenerator = StringConcatenatore + "-" + intConcatenatore;
+
+        System.out.print(passwordGenerator);
+
+    }
+
+}
+
+
 /* import java.util.Scanner;
 public class PasswordGenerator {
 
@@ -85,7 +111,7 @@ public class PasswordGenerator {
 
 // ALTERNATIVA 2 Usando metodi per organizzare meglio il codice
 
-import java.util.Scanner;
+/* import java.util.Scanner;
 
 public class PasswordGenerator {
     private static Scanner scanner = new Scanner(System.in);
@@ -104,7 +130,7 @@ public class PasswordGenerator {
 
         System.out.println("La tua password generata è: " + password);
         scanner.close();
-    }
+    } */
 
     // Metodo helper per leggere stringhe
    /*  private static String chiediStringa(String messaggio) {
@@ -112,7 +138,7 @@ public class PasswordGenerator {
         return scanner.nextLine();
     } */
     // Metodo helper per leggere stringhe con controllo di input
-    private static String chiediStringa(String messaggio) {
+   /*  private static String chiediStringa(String messaggio) {
         String input; // Dichiariamo la variabile che conterrà l'input dell'utente
         
         do{ // Usiamo un ciclo do-while per ripetere finché non otteniamo un input valido
@@ -141,4 +167,4 @@ public class PasswordGenerator {
             String colore, int somma) {
         return nome + "-" + cognome + "-" + colore + "-" + somma;
     }
-}
+} */
