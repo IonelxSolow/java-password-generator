@@ -1,5 +1,5 @@
 //Ho un utente che si chiama Pinco Pallo, nato il 12/05/1994, il cui colore preferito è il magenta. La sua password sarà Pinco-Pallo-magenta-2011
-package org.lessons.security;
+/* package org.lessons.security;
 
 public class PasswordGenerator {
 
@@ -22,10 +22,10 @@ public class PasswordGenerator {
 
     }
 
-}
+} */
 
 
-/* import java.util.Scanner;
+import java.util.Scanner;
 public class PasswordGenerator {
 
     public static void main(String[] args) throws Exception {
@@ -72,7 +72,7 @@ public class PasswordGenerator {
 
     }
 
-} */
+}
 
 //ALTERNATIVA 1 Dichiarazione e inizializzazione insieme
 /* import java.util.Scanner;
